@@ -59,6 +59,10 @@ das ganze dann unter dem Element hinzufügen oder die vorhandenen so anpassen wi
     </tr>
 ```
 
+in der postscanner.js 
+muss der Host string "192.168.178.20"
+zu der dem entsprechenden Seite oder IP führen die der Server besitzt
+
 Backend INFO
 
 im Webserver sollten die PORTS die im HTML drinne stehen 
