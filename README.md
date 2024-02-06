@@ -24,15 +24,47 @@ Text so wie KommentarText sind zwei Spalten
 
 die im `index.html` nach wünschen geändert werden kann
 
-bei Spalte und Kommentar für den Spalten namen und im Element `<td> Text </td>`
+bei Spalte und Kommentar für den Spaltennamen und im Element `<td> Text </td>`
 für den dementsprechenden text der zu der Spalte
 
 das ganze dann unter dem Element hinzufügen oder die vorhandenen so anpassen wie man Sie braucht
 
+##Beispiel:
+```
+    <tr>
+      <td class="portscanner">123</td>
+      <td></td>
+      <td> Text </td>
+      <td> KommentarText </td>
+    </tr>
+    <tr>
+      <td class="portscanner">8883</td>
+      <td></td>
+      <td> Text </td>
+      <td> KommentarText </td>
+    </tr>
+   
+    <tr>
+      <td class="portscanner">666</td>
+      <td></td>
+      <td> Weil 666 ein Toller Port ist </td>
+      <td> Die Dunkleseite der Macht hat KEKSE </td>
+    </tr>
+
+    <tr>
+      <td class="portscanner">9999</td>
+      <td></td>
+      <td> Text </td>
+      <td> KommentarText </td>
+    </tr>
+```
+
 Backend INFO
 
-im Webserver sollten die PORTS die im HTML drinne stehen auch ein Listen PORTNUMMER
-haben es gibt sicher eine andere Lösung noch dies war meine in diesem Fall
+im Webserver sollten die PORTS die im HTML drinne stehen 
+auch ein Listen PORTNUMMER haben 
+es gibt sicher eine andere Lösung 
+doch dies war meine in diesem Fall
 
 diese sollten in der config des Server erweitert und nicht genutzte Ports wieder entfernt werden
 
